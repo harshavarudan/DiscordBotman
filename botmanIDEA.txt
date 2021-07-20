@@ -1,0 +1,30 @@
+botman time
+botman online
+botman calculate
+botman help
+botman detailed help
+botman about
+
+advanced
+
+botman server{
+botman server status
+botman server start
+botman server address
+}
+botman note{
+botman note write
+botman note read
+botman note append
+botman note write override
+}
+botman meme
+
+botman poll{
+botman poll help
+botman start poll qns: ,options:[""],[""]
+botman vote
+botman poll status
+botman view votes
+botman end poll
+}

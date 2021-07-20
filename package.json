@@ -1,0 +1,13 @@
+{
+  "name": "DiscordBotman",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "emoji-js": "^3.5.0",
+    "fs": "^0.0.1-security",
+    "mathjs": "^9.4.4",
+    "shelljs": "^0.8.4",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
