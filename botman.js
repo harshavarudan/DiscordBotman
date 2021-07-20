@@ -14,7 +14,7 @@ let reader=(inputMsg,text,fullRead)=>{
  let botman={
  commands:commands,
      sender:(inputMsg)=>{
-     let outputMsg="invalid command boi";
+     let outputMsg="invalid command boisdf";
      let validCommand=false;
      botman.commands.forEach((command)=>{
         if(!validCommand) command.input.forEach((text)=>
