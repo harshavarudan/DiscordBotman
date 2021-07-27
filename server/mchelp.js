@@ -13,7 +13,7 @@ click done -->
 choose the server and click join
 
 to get the server address use the command  botman server address`
-import lib from "./functions.js";
+import lib from "../functions.js";
 let mchelp={
     fullRead:true,
     input:[
