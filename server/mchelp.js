@@ -1,5 +1,4 @@
-let msg=`so you wanna download and play minecraft
-the first thing you should do is go to this page https://tlauncher.org/en/
+let msg=`the first thing you should do is go to this page https://tlauncher.org/en/
 and download the launcher create an account and sign in with the tlauncher
 click on latest release and click on play it would download the new release and save it
 

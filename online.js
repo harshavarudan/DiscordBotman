@@ -14,6 +14,9 @@ let online={
         ,`u der`
         ,`u alive?`
         ,`u alive`
+        ,`hi`
+        ,`hello`
+        ,`sup`
 
     ],
     output:(text)=>{
@@ -25,11 +28,16 @@ let online={
             ,`yea kiddo?`
             ,`need anything?`
             ,`sup`
-            ,`yep`
+            ,`yea?`
             ,`im ded`
             ,`.....botman is dead \ni killed him`
-
-
+            ,`kya hua`
+            ,`yep?`
+            ,`hello`
+            ,`hi`
+            ,`bol`
+            ,`em kavali?`
+            ,`i exist to serve your ass`
         ]
         return outputmsg[ lib.rand(outputmsg.length)];
     }
