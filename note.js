@@ -16,8 +16,7 @@ let note={
     output:(text)=>{
         let arg=text.slice(5)
         let command=arg.split(' ')[0];
-
-    if(arg==="read"||arg===""||arg==="r"){return note.writtenText===""?"No note created":note.writtenText}
+    if(arg==="read"||arg===""||arg==="r"){read();return note.writtenText===""?"No note created":note.writtenText;}
     if(command==="write"||command==="w"||command==="append"){
         append(arg.slice(arg.indexOf(" ")+1)+"\n")
         setTimeout(read,1000);
@@ -25,8 +24,8 @@ let note={
     }
     if(command==="override"||command==="delete"){
         write("");
-        setTimeout(read,1000)
-        return "Previous note has been deleted"
+        setTimeout(read,2000)
+        return`Previous note has been deleted Data it contained was :\n`+note.writtenText;
     }
     else return invalid();
     }

@@ -9,7 +9,7 @@ let help={
         ,`info`
     ],
     output:(text)=>{
-    return `so far only the basics are done and bit more commands are needed to be added most of the commands should be easily relatable
+    return `most of the commands should be easily relatable
     
     help-->shows this info
     time-->shows time
@@ -27,7 +27,11 @@ let help={
     ,note write-->writes a note(appends)
     ,note override||note delete-->deletes the note
     }
-    calculate-->calculates a given mathematical expression`
+    calculate-->calculates a given mathematical expression
+    ping -->for giving highly inacurate ping(usesless af)
+    meme x-->sends x random crrappy memes
+    `
+
     }
 }
 export default help;

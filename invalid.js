@@ -7,6 +7,7 @@ let invalidComment=[
     ,`im not sentient man idk what u mean :man_shrugging: `
     ,`use the help command cause idk what you just said`
     ,`:man_shrugging: no idea`
+    ,`!#%^*$Q@#(*!#@$%`
 
 ]
 

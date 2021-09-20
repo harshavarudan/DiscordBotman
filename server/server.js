@@ -43,7 +43,7 @@ let server={
     ServerStatus:{
         IsOn:false,
         Address:`inactive`,
-        players:null
+        players:[]
     },
     fullRead:false,
     input:[
@@ -70,7 +70,7 @@ let server={
             return JSON.stringify(server.ServerStatus)
         }
         if(text==='players'){
-        return server.ServerStatus.players===null?`None are playing right now :cry:`: `Current players:\n${server.ServerStatus.players.toString()}`;
+        return server.ServerStatus.players.length===0?`None are playing right now :cry:`: `Current players:\n${server.ServerStatus.players.toString()}`;
         }
 
         else{return invalid()}
